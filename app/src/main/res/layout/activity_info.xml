@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/image_covid2"
+    tools:context=".infoActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/aboutView"
+                style="@android:style/Widget.DeviceDefault.TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="\nAbout COVID-19\n"
+                android:textAllCaps="true"
+                android:textColor="#FFEB3B"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <TextView
+                android:id="@+id/description1View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="\tCorona Virus (COVID-19) is a pandemic disease that is caused by the severe acute respiratory syndrome coronavirus 2(SARS-Cov-2).
+                The first case of this virus was found on 17 November 2019 in Hubei, China.
+                It is a communicable disease that transfers between person to person.
+                Until now, more than 18 million people have been infected where more than 600,000 people have already lost their lives due to this virus.
+                \nHow COVID-19 spreads depend upon the sanitization and preventive measures of each person.\n
+                Below are some of the symptoms and preventive measures that is provided by the World Health Organization(WHO) and Centers for Disease Control and Prevention(CDC).\n"
+                android:textColor="#EFDC89"
+                android:textColorHighlight="#DD2C00"
+                android:textColorHint="#0E2870"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <TextView
+                android:id="@+id/symptomsView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Symptoms\n"
+                android:textColor="#FFEB3B"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="662dp" />
+
+            <TextView
+                android:id="@+id/description2View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="COVID-19 is a real dangerous and infectious disease because their symptoms exists in large number. \nSymptoms may appear 2-14 days after exposure to the virus. Some of the symptoms of the COVID-19 virus are as follows:\n
+                \n•Fever or chills
+                \n•Cough or conjunctivitis
+                \n•Shortness of breath or difficulty breathing
+                \n•Fatigue
+                \n•Muscle or body aches and pains
+                \n•Headache
+                \n•New loss of taste or smell
+                \n•Sore throat and dry cough
+                \n•Congestion or runny nose
+                \n•Nausea or vomiting
+                \n•Loss of speech or movement.
+                \n•chest pain or pressure.
+                \n•Diarrhea\n"
+
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="700dp" />
+
+            <TextView
+                android:id="@+id/preventionView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Preventive Measures\n"
+                android:textColor="#FFEB3B"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <TextView
+                android:id="@+id/description3View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="• There is currently no vaccine to protect against COVID-19 but lot of researches have been going on different countirs. These are some of the preventive measures from COVID-19: \n
+•The best way to protect yourself is to avoid being exposed to the virus that causes COVID-19.\n
+•Stay home as much as possible and avoid close contact with others.\n
+•Wear a cloth face covering that covers your nose and mouth in public settings.\n
+•Clean and disinfect frequently touched surfaces.\n
+•Wash your hands often with soap and water for at least 20 seconds, or use an alcohol based hand sanitizer that contains at least 60% alcohol.\n
+•Stay home if you are sick, except to get medical care.\n
+•Avoid public transportation, ridesharing, or taxis.\n
+•Separate yourself from other people and pets in your home.\n
+•There is no specific treatment for COVID-19, but you can seek medical care to help relieve your symptoms.\n
+•If you need medical attention, call ahead.\n
+•Buy groceries and medicine, go to the doctor, and complete banking activities online when possible.\n
+•If you must go in person, stay at least 6 feet away from others and disinfect items you must touch.\n
+•Get deliveries and takeout, and limit in-person contact as much as possible.\n\n\n
+"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="98dp" />
+
+
+            <TextView
+                android:id="@+id/titleView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="For more information visit:\n\n"
+                android:textColor="#FFEB3B"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <TextView
+                android:id="@+id/link1View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/text1"
+                android:textColor="#FFEB3B"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <TextView
+                android:id="@+id/link2View"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_gravity="center"
+                android:text="@string/text2"
+                android:textColor="#FFEB3B"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/back_button"
+                android:text="Go back"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="15dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
